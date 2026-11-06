@@ -1,0 +1,20 @@
+# Stage 1: GPS retrained on THP-1
+numpy
+pandas
+scipy
+scikit-learn
+joblib
+rdkit
+torch
+h5py
+
+# Stage 2: UNAGI perturbation
+#   torch==2.4.1+cu121
+#   scanpy
+#   anndata
+#   pyro-ppl
+#   leidenalg
+#   python-igraph
+#   plus a local UNAGI checkout
+#
+# R scripts: qs, monocle3, irlba >= 2.4.1

@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.env
+.DS_Store
+
+# data, checkpoints, profiles and results stay out of version control
+*.npy
+*.pkl
+*.pt
+*.h5ad
+*.qs
+*.gctx
+*.csv
+*.tsv
+*.log
+exp/
+exp2/
+runs/
+model_data*/
